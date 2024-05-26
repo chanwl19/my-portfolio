@@ -1,3 +1,14 @@
+/*
+  File name : Card.module.css 
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
+/*
+  Section Header
+  define card class style
+*/
 .card {
     background-color: black;
     border-radius: 6px;
