@@ -1,8 +1,23 @@
+/*
+  File name : Services.module.css 
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
+/*
+  Section Header
+  define serviceImg class style
+*/
 .servceImg {
     margin-left: 1rem;
 
 }
 
+/*
+  Section Header
+  define serviceImg class style wben it is hover
+*/
 .servceImg:hover {
     transform: scale(1.2);
 }

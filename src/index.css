@@ -1,7 +1,22 @@
+/*
+  File name : index.css 
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
+/*
+  Section Header
+  define all elements style
+*/
 * {
   box-sizing: border-box;
 }
 
+/*
+  Section Header
+  define global css
+*/
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -39,10 +54,18 @@
   --color-primary-900: #f6ad1b;
 }
 
+/*
+  Section Header
+  define body css
+*/
 body {
   margin: 0;
 }
 
+/*
+  Section Header
+  define ul css
+*/
 ul {
   list-style: none;
   margin: 0;

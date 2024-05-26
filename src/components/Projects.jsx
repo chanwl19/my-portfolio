@@ -1,8 +1,24 @@
+/*
+  File name : Projects.jsx
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
 import Card from '../ui/Card';
 import classes from './Projects.module.css';
 import { projects } from '../data';
 
+/*
+  Section Header
+  Export function Projects to render the project page
+*/
 export default function Projects() {
+
+  /*
+    Section Header
+    Define function to for getting images
+  */
   function getImage(name){
     return new URL(`../assets/${name}`, import.meta.url).href;
   }

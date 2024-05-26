@@ -1,17 +1,43 @@
-.form {
+/*
+  File name : Contact.module.css 
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
+
+  /*
+    Section Header
+    define form style
+  */
+  .form {
     padding: 1rem;
   }
   
+  
+  /*
+    Section Header
+    define control class style
+  */
   .control {
     margin-bottom: 0.5rem;
   }
   
+  
+  /*
+    Section Header
+    define label under control class style
+  */
   .control label {
     display: block;
     font-weight: bold;
     margin-bottom: 0.5rem;
   }
   
+  /*
+    Section Header
+    define input text area under control class style
+  */
   .control input,
   .control textarea {
     display: block;
@@ -22,11 +48,19 @@
     width: 100%;
   }
   
+  /*
+    Section Header
+    define actions class style
+  */
   .actions {
     margin-top: 1rem;
     text-align: right;
   }
   
+  /*
+    Section Header
+    define button under actions class style
+  */
   .actions button {
     font: inherit;
     cursor: pointer;
@@ -38,6 +72,10 @@
     font-weight: bold;
   }
   
+  /*
+    Section Header
+    define css for button when it is hover and active
+  */
   .actions button:hover,
   .actions button:active {
     background-color: #a50e48;

@@ -1,5 +1,16 @@
+/*
+  File name : Home.jsx 
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
 import { NavLink } from 'react-router-dom';
 
+/*
+  Section Header
+  Export function Home to render the Home page
+*/
 export default function Home() {
   return (
     <>

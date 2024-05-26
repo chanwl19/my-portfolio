@@ -1,10 +1,26 @@
-import { Form, useNavigate } from 'react-router-dom';
+/*
+  File name : Contact.jsx 
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
+import { useNavigate } from 'react-router-dom';
 import classes from './Contact.module.css'
 import { contacts } from '../data';
 
+/*
+  Section Header
+  Export function Contact to render the Contact me page
+*/
 export default function Contact() {
   const navigate = useNavigate();
 
+  
+  /*
+    Section Header
+    define function when the submit button is clicked
+  */
   function handleSubmit() {
     event.preventDefault();
     navigate('/');
@@ -29,7 +45,7 @@ export default function Contact() {
           <input type="text" name="contact" id="contact" required/>
         </div>
         <div className={classes.control}>
-          <label htmlFor="message">Messager:</label>
+          <label htmlFor="message">Message:</label>
           <textarea name="message" id="message" required/>
         </div>
         <div className={classes.actions}>

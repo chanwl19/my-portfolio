@@ -1,8 +1,23 @@
+/*
+  File name : Projects.module.css 
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
+/*
+  Section Header
+  Define img under detail class style
+*/
 .detail img {
     width: 100%;
     height:100%;
 }
 
+/*
+  Section Header
+  Define detail class style
+*/
 .detail {
     text-align: center;
     margin-bottom: 1rem;

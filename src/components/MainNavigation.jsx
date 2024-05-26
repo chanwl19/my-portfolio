@@ -1,7 +1,19 @@
+/*
+  File name : MainNavigation.jsx 
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
+
 import classes from './MainNavigation.module.css';
 import { NavLink } from 'react-router-dom';
 import logo from '../assets/logo.jpg';
 
+/*
+  Section Header
+  Export function MainNavigation to define the navigation page
+*/
 export default function MainNavigation() {
   return (
     <header className={classes.header}>

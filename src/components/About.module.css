@@ -1,6 +1,17 @@
+/*
+  File name : About.module.css 
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
+/*
+  Section Header
+  define class myphoto style
+*/
 .myphoto {
     width:200px;
-    height:200px;
+    height:250px;
 }
 
 

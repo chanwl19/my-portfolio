@@ -1,4 +1,15 @@
-.header {
+/*
+  File name : MainNavigation.module.css 
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
+  /*
+    Section Header
+    define header class style
+  */
+  .header {
     max-width: 60rem;
     margin: auto;
     padding: 2rem;
@@ -6,6 +17,10 @@
     justify-content: normal;
   }
 
+  /*
+    Section Header
+    define list class style
+  */
   .list {
     display: flex;
     gap: 1rem;
@@ -13,17 +28,29 @@
     align-items: center;
     margin-left: 1rem;
   }
-  
+
+  /*
+    Section Header
+    define anchor under list class style
+  */
   .list a {
     text-decoration: none;
     color: var(--color-primary-400);
   }
-  
+ 
+  /*
+    Section Header
+    define anchor style when it is hover and active
+  */
   .list a:hover,
   .list a.active {
     color: var(--color-primary-800);
   }
 
+  /*
+    Section Header
+    define img element class
+  */
   img{
     width:60px;
     height: 60px;

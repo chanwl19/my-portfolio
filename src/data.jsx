@@ -1,3 +1,14 @@
+/*
+  File name : data.jsx 
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
+/*
+  Section Header
+  Define projects data
+*/
 export const projects = [
     {
         title:"My first React Project",
@@ -19,11 +30,19 @@ export const projects = [
     }
 ]
 
+/*
+  Section Header
+  define contacts data
+*/
 export const contacts = [
     "Email : wchan194@my.centennialcollege.ca",
     "Phone Number : 437-555-4444"
 ]
 
+/*
+  Section Header
+  define service data
+*/
 export const services = [
     {
         service:"General Programming with C# / java / python",

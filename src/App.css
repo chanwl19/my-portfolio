@@ -1,3 +1,14 @@
+/*
+  File name : App.css
+  Student’s Name : Wai Lung Chan 
+  StudentID : 301325509 
+  Date : 26-May-2024
+*/
+
+/*
+  Section Header
+  define the root id element style
+*/
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,6 +16,10 @@
   text-align: center;
 }
 
+/*
+  Section Header
+  define the keyframes style
+*/
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -14,20 +29,36 @@
   }
 }
 
+/*
+  Section Header
+  define media for responsiveness
+*/
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
 }
 
+/*
+  Section Header
+  define the class card style
+*/
 .card {
   padding: 2em;
 }
 
+/*
+  Section Header
+  define the read-the-docs class style
+*/
 .read-the-docs {
   color: #888;
 }
 
+/*
+  Section Header
+  define the style when the class logo-img is hovered
+*/
 .logo-img:hover {
   transform: scale(1.5);
 }
